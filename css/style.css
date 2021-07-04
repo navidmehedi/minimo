@@ -1,0 +1,163 @@
+/*font links start*/
+@font-face{
+	font-family: PlayfairDisplay-Regular;
+	src: url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Bold;
+	src: url(../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Italic;
+	src: url(../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Black;
+	src: url(../fonts/Playfair_Display/PlayfairDisplay-Black.ttf);
+}
+@font-face{
+	font-family: Ubuntu-Italic;
+	src: url(../fonts/Ubuntu/Ubuntu-Italic.ttf);
+}
+@font-face{
+	font-family: Ubuntu-Light;
+	src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+/*font links end*/
+
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 18px;
+	font-weight: 400;
+	color: #626262;
+}
+h5{
+	font-family: Ubuntu-Light;
+	font-size: 16px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 30px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;	
+}
+.logo {
+	margin-top: 16px;
+	width: 6%;
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;	
+}
+.menu {
+	width: 94%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin: 0 67px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #626262;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+.menu ul li a:hover{
+	color: #000000;
+}
+/*header end*/
+/*section img start*/
+.photo{
+	margin: 0 auto;
+	width: 97%;
+    padding-bottom: 30px;
+}
+.photo img{
+	width: 100%;
+}
+/*section img end*/
+
+/*section text start*/
+
+.text{
+	margin: 0 auto;
+	width: 60%;
+}
+.text_2{}
+.pp{
+	margin-bottom: -6px;
+}
+h2{
+	margin: 0;
+    padding: 23px 0;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 40px;
+	font-weight: 400;
+
+}
+p{
+	margin: 0;
+	padding-bottom: 30px;
+	font-size: 14px;
+	line-height: 26px;
+
+}
+h5.leave{
+	margin-top: 0px;
+    padding-top: 12px;
+}
+/*section text end*/
+/*lifestyle section*/
+.c_content{
+	margin: 0 auto;
+	padding: 96px 0;
+	overflow: hidden;
+	
+}
+.ls_left{
+	width: 48%;
+	float: left;
+}
+.ls_left img{
+	width: 100%;
+}
+h5.ll{
+	margin-bottom: -9px;
+	padding-bottom: 0px;
+}
+lt{}
+.ls_right{
+	width: 48%;
+	float: right;
+}
+.ls_right img{
+	width: 100%;
+}
+h2.ltt{}
+.cc_content{
+	margin: 0 auto;
+	padding-top: 0px;
+	overflow: hidden;
